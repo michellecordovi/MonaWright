@@ -19,3 +19,60 @@ header{
     width: 50%;
     text-align: center;
 }
+
+/* ABOUT SECTION */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#awards-section{
+    width: 100%;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+
+    img{
+        height: 150px;
+    }
+}
+
+
+#home-about-section{
+    max-width: 95%;
+    margin: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 2rem;
+    border: 1px solid #fdfee8;
+    padding: 2rem;
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: right;
+    }
+
+    #home-about-text{
+        p{
+            margin: 1rem 0rem;
+        }
+
+        button{
+            color:#7d6d82;
+            background-color: #fdfee8;
+            border: none;
+            height: 30px;
+            width: 100px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+
+}
