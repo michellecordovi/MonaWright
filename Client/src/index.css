@@ -8,6 +8,11 @@
 body{
     background-color:#7d6d82;
     color:#fdfee8;
+    font-family: Monterrat, Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, #site-logo {
+    font-family: 'Bodoni Moda', Georgia, 'Times New Roman', Times, serif;
 }
 
 a{
@@ -38,6 +43,12 @@ nav{
 
         li{
             margin: 0px 2rem;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+
+        li:hover{
+            color:#dccee1;
         }
     }
 
@@ -51,6 +62,7 @@ nav{
         ul{
             height: fit-content;
             max-height: 0px;
+            overflow: hidden;
             width: 100%;
             color: #7d6d82;
             flex-direction: column;
