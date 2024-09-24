@@ -1,0 +1,21 @@
+header{
+    min-height: 500px;
+    background-image: url(../../../public/images/hero-background.jpg);
+    background-size: cover;
+    border-image-source: linear-gradient(#7d6d824f, #7d6d82);
+    border-image-slice: fill 1;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    border-style: solid;
+    border-width: 10px;
+}
+
+#hero-text{
+    width: 50%;
+    text-align: center;
+}
