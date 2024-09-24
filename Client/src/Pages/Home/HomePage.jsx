@@ -32,6 +32,7 @@ function HomePage() {
 				</section>
 
 				<section id="home-about-section">
+					<h2>About</h2>
 
 					<img
 						src="../../../public/images/maya-angelou.jpg"
@@ -39,8 +40,8 @@ function HomePage() {
 					/>
 
 					<div id="home-about-text">
-						<h2>Mona Wright</h2>
-						<h3>Poet, Author</h3>
+						<h3>Mona Wright</h3>
+						<h4>Poet, Author</h4>
 						<p>
 							Lorem ipsum odor amet, consectetuer adipiscing elit.
 							Tortor magna tempor velit laoreet massa vivamus
@@ -51,6 +52,10 @@ function HomePage() {
 
 						<button>Learn more</button>
 					</div>
+				</section>
+
+				<section id="featured-pieces-section">
+					<h2>Featured Pieces</h2>
 				</section>
 			</main>
 		</>
