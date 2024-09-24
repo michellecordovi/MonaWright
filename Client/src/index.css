@@ -19,7 +19,7 @@ a{
 /* NAVIGATION BAR */
 nav{
     width: 100%;
-    padding: 1rem;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,6 +40,39 @@ nav{
             margin: 0px 2rem;
         }
     }
+
+    #menu-icon{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    nav{
+        ul{
+            height: fit-content;
+            max-height: 0px;
+            width: 100%;
+            color: #7d6d82;
+            flex-direction: column;
+            background-color: rgb(238, 238, 233);
+            position: absolute;
+            top: 60px;
+            transition: 0.5s ease-in;
+
+            li{
+                margin: 1rem 0rem;
+            }
+        }
+
+        .expanded{
+            max-height:100%;
+        }
+
+        #menu-icon{
+            display: block;
+        }
+    }
+    
 }
 
 
