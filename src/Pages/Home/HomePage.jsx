@@ -18,15 +18,15 @@ function HomePage() {
 			<main>
 				<section id="awards-section">
 					<img
-						src="../../../public/images/example-award.png"
+						src="/images/example-award.png"
 						alt=""
 					/>
 					<img
-						src="../../../public/images/example-award.png"
+						src="/images/example-award.png"
 						alt=""
 					/>
 					<img
-						src="../../../public/images/example-award.png"
+						src="/images/example-award.png"
 						alt=""
 					/>
 				</section>
@@ -35,7 +35,7 @@ function HomePage() {
 					<h2>About</h2>
 
 					<img
-						src="../../../public/images/maya-angelou.jpg"
+						src="/images/Maya-Angelou.jpg"
 						alt="image of maya angelou"
 					/>
 
