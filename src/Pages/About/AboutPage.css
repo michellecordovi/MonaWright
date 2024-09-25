@@ -1,0 +1,11 @@
+#about-page{
+    background-image: url(/public/images/hero-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

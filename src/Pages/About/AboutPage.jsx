@@ -1,5 +1,11 @@
+import './AboutPage.css'
+
 function AboutPage(){
-    return <h1>About me!</h1>
+    return (
+        <section id="about-page">
+            <h1>Page Under Construction</h1>
+        </section>
+    )
 }
 
 export default AboutPage;

@@ -1,5 +1,11 @@
+import "./PoetryPage.css";
+
 function PoetryPage() {
-	return <h1>Poetry by me!</h1>;
+	return (
+		<section id="poetry-page">
+			<h1>Page Under Construction</h1>
+		</section>
+	);
 }
 
 export default PoetryPage;
