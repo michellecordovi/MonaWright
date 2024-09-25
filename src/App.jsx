@@ -8,6 +8,7 @@ import Root from "./Components/Root";
 import HomePage from "./Pages/Home/HomePage";
 import AboutPage from "./Pages/About/AboutPage";
 import PoetryPage from './Pages/Poetry/PoetryPage'
+import ContactPage from "./Pages/Contact/ContactPage";
 
 function App() {
 	const router = createBrowserRouter(
@@ -16,6 +17,7 @@ function App() {
                 <Route index element={<HomePage />} />
 				<Route path="/About" element={<AboutPage />} />
                 <Route path="/Poetry" element={<PoetryPage />} />
+				<Route path="/Contact" element={<ContactPage />} />
 			</Route>
 		)
 	);

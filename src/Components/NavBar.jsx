@@ -13,7 +13,7 @@ function NavBar() {
 		<nav>
 			<div className="site-logo">Mona Wright</div>
 
-			<ul className={isExpanded ? 'expanded' : ''}>
+			<ul className={isExpanded ? "expanded" : ""}>
 				<li onClick={handleToggle}>
 					<NavLink to="/">Home</NavLink>
 				</li>
@@ -21,7 +21,10 @@ function NavBar() {
 					<NavLink to="/About">About</NavLink>
 				</li>
 				<li onClick={handleToggle}>
-					<NavLink to="Poetry">Poetry</NavLink>
+					<NavLink to="/Poetry">Poetry</NavLink>
+				</li>
+				<li onClick={handleToggle}>
+					<NavLink to="/Contact">Contact</NavLink>
 				</li>
 			</ul>
 
