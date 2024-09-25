@@ -16,19 +16,12 @@ function HomePage() {
 			</header>
 
 			<main>
-				<section id="awards-section">
-					<img
-						src="/images/example-award.png"
-						alt=""
-					/>
-					<img
-						src="/images/example-award.png"
-						alt=""
-					/>
-					<img
-						src="/images/example-award.png"
-						alt=""
-					/>
+				<section className="divider quote">
+					<blockquote>
+						&quot;You see a thing can be an object,a person or a
+						sin. It really just depends on what you&apos;re judging
+						then.&quot;
+					</blockquote>
 				</section>
 
 				<section id="home-about-section">
@@ -51,6 +44,21 @@ function HomePage() {
 						</p>
 
 						<button>Learn more</button>
+					</div>
+
+					<div id="about-awards-section">
+						<img
+							src="/images/example-award.png"
+							alt="example award"
+						/>
+						<img
+							src="/images/example-award.png"
+							alt="example award"
+						/>
+						<img
+							src="/images/example-award.png"
+							alt="example award"
+						/>
 					</div>
 				</section>
 
