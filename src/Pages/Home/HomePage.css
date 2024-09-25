@@ -70,6 +70,7 @@ main{
         grid-column: 1/ span 2;
         margin-bottom: 2rem;
         text-align: center;
+        border-bottom: 1px solid #430840;
     }
 
     img{
