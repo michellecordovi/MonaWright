@@ -103,7 +103,7 @@ blockquote{
         column-gap: 0px;
     }
 
-        #home-about-seciton img{
+        #home-about-section img{
             margin-bottom: 1rem;
             grid-column: 1/span1;
         }
