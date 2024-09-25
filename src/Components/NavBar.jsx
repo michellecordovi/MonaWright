@@ -11,7 +11,7 @@ function NavBar() {
 
 	return (
 		<nav>
-			<div id="site-logo">Mona Wright</div>
+			<div className="site-logo">Mona Wright</div>
 
 			<ul className={isExpanded ? 'expanded' : ''}>
 				<li onClick={handleToggle}>

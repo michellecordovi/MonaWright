@@ -62,9 +62,9 @@ function HomePage() {
 					</div>
 				</section>
 
-				<section id="featured-pieces-section">
+				{/* <section id="featured-pieces-section">
 					<h2>Featured Pieces</h2>
-				</section>
+				</section> */}
 			</main>
 		</>
 	);
