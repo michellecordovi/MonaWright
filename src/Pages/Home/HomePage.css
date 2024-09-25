@@ -47,6 +47,7 @@ blockquote{
     grid-template-columns: 1fr 1fr;
     align-items: center;
     column-gap: 2rem;
+}
 
     h2{
         grid-column: 1/ span 2;
@@ -55,7 +56,7 @@ blockquote{
         border-bottom: 1px solid #430840;
     }
 
-    img{
+    #hom-about-section img{
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -94,19 +95,15 @@ blockquote{
             width: auto;
         }
     }
-}
 
 @media only screen and (max-width: 800px){
     #home-about-section{
         grid-template-columns: 1fr;
         justify-items: center;
         column-gap: 0px;
+    }
 
-        /* h2{
-            grid-column: 1/ span 1;
-        } */
-
-        img{
+        #home-about-seciton img{
             margin-bottom: 1rem;
             grid-column: 1/span1;
         }
@@ -126,5 +123,4 @@ blockquote{
                 height: 200px
             }
         }
-    }
 }
